@@ -1,0 +1,15 @@
+#objective .infobox{
+    
+}
+#abox1,#qbox1,#sbox1,#pbox1 {
+    width: 320px;
+    height: 270px;
+}
+#abox2,#qbox2,#sbox2,#pbox2 {
+    width: 145px;
+    height: 100px;
+}
+#pbox1 {
+    background-image: url('editor.png');
+    background-size: cover;
+}

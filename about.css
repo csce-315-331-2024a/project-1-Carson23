@@ -1,0 +1,16 @@
+#pbox1 {
+    background-image: url('editor.png');
+    background-size: cover;
+}
+#main section {
+    display: flex;
+    border: 2px solid #c1c1c1;
+    padding: 0.5rem;
+    height: 200px;
+    text-align: center;
+}
+.infobox {
+    border: 2px solid #444;
+    border-radius: 10px; 
+    height: 180px;
+}
