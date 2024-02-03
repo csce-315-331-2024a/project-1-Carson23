@@ -3,12 +3,16 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    
+}
+.infobox li {
+    margin-bottom: 20px;
 }
 .navbar {
     width: 100%;
     height: fit-content;
 }
-.navbutton {
+.navbutton { 
     height: max-content;
     height: auto;
     font-weight: bold;
@@ -22,6 +26,7 @@ body {
     width: 500px;
     background-color: rgb(188, 188, 188);
     margin: auto;
+    overflow: auto;
 }
 
 #main section {
@@ -29,7 +34,9 @@ body {
     border: 2px solid #c1c1c1;
     padding: 0.5rem;
     height: 300px;
+    margin-top: 0;
     text-align: center;
+
 }
 .info {
     width: -webkit-fill-available;
@@ -54,6 +61,7 @@ header {
     color: #fff;
     padding: 0.5rem;
     text-align: center;
+    top: 0;
     
 }
 

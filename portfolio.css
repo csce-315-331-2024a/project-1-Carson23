@@ -6,9 +6,9 @@
 #planebox2 {
     background-image: url('Plane_Background.png');
     background-size: cover;
-
 }
 #main section {
+    
     margin-bottom: 80px;
     display: flex;
     border: 2px solid #c1c1c1;
