@@ -1,0 +1,47 @@
+#planebox1 {
+    background-size: cover;
+    background-image: url('Plane_Controller.png');
+    background-size: cover;
+}
+#planebox2 {
+    background-image: url('Plane_Background.png');
+    background-size: cover;
+}
+#dbox1 {
+    background-size: cover;
+    background-image: url('discord1.png');
+    background-size: cover;
+}
+#dbox2 {
+    background-image: url('discord2.png');
+    background-size: cover;
+}
+#rbox1 {
+    background-size: cover;
+    background-image: url('arduino1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#rbox2 {
+    background-image: url('arduino2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#main{
+    margin-left: 50px;
+}
+#main section {
+    font-size: 12px;
+    
+    margin-bottom: 80px;
+    display: flex;
+    border: 2px solid #c1c1c1;
+    padding: 0.5rem;
+    height: 520px;
+    text-align: center;
+}
+.infobox {
+    border: 2px solid #444;
+    border-radius: 10px; 
+    height: 180px;
+}

@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.container {
+    flex-grow: 1;
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px; /* Adjust width as needed */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0; /* Align to the top */
+    bottom: 0; /* Align to the bottom */
+    overflow-y: auto; /* Enable scroll if content is too long */
+    z-index: 2; /* Ensure the sidebar is above other items */
+}
+
+header {
+    width: 300px;
+    padding: 0;
+    display: block; /* Hide the top header if not in use */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.navbutton { 
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #444;
+    border: none;
+    text-align: left;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.navbutton:hover {
+    background-color: #555;
+}
+
+#main {
+    margin-left: 250px; /* Same as sidebar width */
+    flex-grow: 1;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* Create a responsive grid */
+    grid-gap: 20px; /* Space between grid items */
+}
+
+#main section {
+    border: 2px solid #c1c1c1;
+    border-radius: 10px;
+    padding: 0.5rem;
+    height: auto; /* Height is automatic, can be adjusted or made responsive */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    width: -webkit-fill-available;
+    border: 2px solid #ffcccc00;
+}
+.infobox {
+    border: 2px solid #444;
+    border-radius: 10px; 
+    height: 280px;
+}
+.infoheader {
+    text-align: left;
+    margin: auto;
+    margin-left: 6px;
+    margin-bottom: 5px;
+}
+
+header {
+    width: 300px;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    top: 0;
+    z-index: 1000; /* Ensure the header is above other items */
+}

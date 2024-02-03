@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="qualifications.css">
+    <link rel="stylesheet" href="styles.css" id="stylesheet">
+    <link rel="stylesheet" href="qualifications.css" id="qualsheet">
+    <link rel="stylesheet" href="qualifications1.css" id="qual1sheet">
 </head>
 <body>
     
@@ -18,6 +19,7 @@
             <a href="qualifications.html"><button class="navbutton">Qualifications</button></a>
             <a href="service.html"><button class="navbutton">Service</button></a>
             <a href="portfolio.html"><button class="navbutton">Portfolio</button></a>
+            <button id="toggleTheme" class="navbutton">Toggle Theme</button>
         </div>
     </header>
 
@@ -51,11 +53,11 @@
                 <h4 class="infoheader">Activities/Awards</h4>
                 <div class="infobox"id="qbox1"><p><p><ul>
                     <li>
-                        <strong>GMTK Game Jam 2022</strong><br>
+                        <strong><a href = "https://itch.io/jam/gmtk-jam-2022/">GMTK Game Jam 2022</a></strong><br>
                         - Placed top 8% in a 48 hour game jam competition consisting of 6,000 participants.<br>
                     </li>
                     <li>
-                        <strong>Aggies Invent 2020</strong><br>
+                        <strong><a href = "https://engineering.tamu.edu/student-life/aggies-invent/index.html">Aggies Invent 2020</a></strong><br>
                         - Placed 3rd in one out of two Competitions attended. Helped design and 3D model a mounted satellite 
                         sensor that can detect nuclear explosions from space. 
                     </li>
@@ -69,26 +71,26 @@
                 <h4 class="infoheader">Academic Experience</h4>
                 <div class="infobox" id="sbox1"><p><ul>
                     <li>
-                        <strong>Telemetry Sub-Team Member - Texas A&M Solar Car Team</strong><br>
+                        <strong><a href = "https://www.tamusae.org/solar-22-23">Telemetry Sub-Team Member - Texas A&M Solar Car Team</a></strong><br>
                         College Station, Texas | June 2023 - Present<br>
                         - Designed sample schematic in diptrace for connecting stm32 board to solar car sensor components.<br>
                         - Designed car dashboard UI in android studio along with experimenting with an E-ink module.
                     </li>
                     <li>
-                        <strong>Nasa Aerospace Scholars Program Mission 1/2</strong><br>
+                        <strong><a href = "https://www.nasa.gov/learning-resources/nasa-community-college-aerospace-scholars/">Nasa Aerospace Scholars Program Mission 1/2</a></strong><br>
                         Frisco, Texas | February 2021 - February 2021<br>
                         - Participated in a 5-week online course followed with a 5 Day team design competition consisting of 5 team members.<br>
                         - Mission 1: Constructed a Mission Report evaluating different types of In-Situ Resource Utilization Capabilities.<br>
                         - Mission 2: Researched sensor components as a Science Return Specialist, Team design awarded an Honorable Mention.
                     </li>
                     <li>
-                        <strong>L’space</strong><br>
+                        <strong><a href = "https://www.lspace.asu.edu/">L’space</a></strong><br>
                         Frisco, Texas | July 2021 - October 2021<br>
                         - Collaborated with a team of 4 people for the mars rover design to develop a Preliminary Design Review (PDR) that followed NASA mission objectives.<br>
                         - Researched solar panels and battery type to fit rover weight, power, and dimensional constraints.
                     </li>
                     <li>
-                        <strong>SEC Directed Internship</strong><br>
+                        <strong><a href = "https://sec.tamu.edu/">SEC Directed Internship</a></strong><br>
                         Frisco, Texas | July 2021 - August 2021<br>
                         - Worked within a team of 5 to design and develop an advanced water filtration system over the course of six weeks.<br>
                         - Developed Professional skills working with an industry mentor such as planning team meetings and keeping strict deadlines.
@@ -102,25 +104,25 @@
                 <h4 class="infoheader">Work Experience</h4>
                 <div class="infobox" id="pbox1"><p><ul>
                     <li>
-                        <strong>KarateFox Game Developer</strong><br>
+                        <strong><a href = "https://karatefoxstudios.com/">KarateFox Game Developer</a></strong><br>
                         Frisco, Texas | December 2022 - Present<br>
                         - Developed Client and Server-side code for a web-based multiplayer game.<br>
                         - Learned Agile tools, Server authoritative code, and keeping account-based applications secure.
                     </li>
                     <li>
-                        <strong>CodaKid Teacher</strong><br>
+                        <strong><a href = "https://codakid.com/">CodaKid Teacher</a></strong><br>
                         Frisco, Texas | February 2022 - December 2022<br>
                         - Taught General Programming concepts and videogame courses to approximately 10 virtual students aged 8-15.<br>
                         - Designed a curriculum for a special needs student; turtle graphics were used to make visuals from his favorite videogame.
                     </li>
-                    <li>
-                        <strong>Teaching Assistant</strong><br>
+                    <li>https://engineering.tamu.edu/academics/academies/index.html
+                        <strong><a href = "https://engineering.tamu.edu/academics/academies/index.html">Teaching Assistant</a></strong><br>
                         Dallas, Texas | February 2022 - May 2022<br>
                         - Assisted Texas A&M Engineering courses at Dallas College for approximately 70 students.<br>
                         - Helped students run lab equipment and complete engineering labs.
                     </li>
                     <li>
-                        <strong>Spark Engineering Camp, Student Mentor</strong><br>
+                        <strong><a href = "https://tees.tamu.edu/workforce-development/pk-12-engineering-education-outreach/index.html">Spark Engineering Camp, Student Mentor</a></strong><br>
                         Frisco, Texas | June 2021 - June 2021<br>
                         - Worked approximately 50 hours as a Student Mentor assisting a virtual engineering summer camp for approximately 40 high school students.<br>
                         - Assisted students in following the engineering design process and how to present solutions to industry judges.
@@ -142,7 +144,7 @@
 
     
 
-    
+    <script src="themeSwitcher.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,68 @@
+#main section {
+    display: flex;
+    border: 2px solid #c1c1c1;
+    padding: 0.5rem;
+    height: 200px;
+    text-align: center;
+    flex-direction: row;
+}
+.infobox {
+    border: 2px solid #444;
+    border-radius: 10px; 
+    height: 180px;
+}
+#abox1 {
+    margin-left:0px;
+    width: 150px;
+    background-size: cover;
+    text-align: center; /* Center-align the content */
+}
+
+#abox1 a {
+    display: block; /* Make the anchor element a block-level element to fill the container */
+    padding: 10px; /* Add some padding for better clickability */
+}
+
+
+#abox1 img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    max-height: 100%; /* Ensure the image doesn't exceed the container height */
+    margin: 0 auto; /* Center the image horizontally */
+    text-align: center;
+}
+#abox2 {
+    width: 300px;
+    height: 150x;
+}
+
+
+#education-list {
+    list-style: none; /* Remove the list-style (bullets or numbers) */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    margin-left: 0;
+}
+
+#education-list ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 15px; /* Add some spacing between list items */
+}
+#sbox1 {
+    height: 500px;
+    font-size: smaller;
+}
+section#service{
+    height: 550px;
+}
+#pbox1 {
+    height: 500px;
+    font-size: smaller;
+}
+section#portfolio{
+    height: 550px;
+}
+#objective {
+    width: 450px;
+}

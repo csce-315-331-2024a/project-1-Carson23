@@ -3,7 +3,7 @@
 }
 #abox1,#qbox1,#sbox1,#pbox1 {
     width: 320px;
-    height: 280px;
+    height: 270px;
 }
 #abox2,#qbox2,#sbox2,#pbox2 {
     width: 145px;
@@ -20,19 +20,16 @@
     background-image: url('me.png');
     background-size: cover;
     z-index: 1;
-
 }
 #qbox1 {
     background-image: url('qualifications.png');
     background-size: cover;
     z-index: 1;
-
 }
 #sbox1 {
     background-image: url('bigevent.png');
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1;
-    height: 230px;
-
+    height: 235px;
 }
