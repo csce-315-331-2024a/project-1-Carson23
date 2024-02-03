@@ -7,7 +7,28 @@
     background-image: url('Plane_Background.png');
     background-size: cover;
 }
+#dbox1 {
+    background-size: cover;
+    background-image: url('discord1.png');
+    background-size: cover;
+}
+#dbox2 {
+    background-image: url('discord2.png');
+    background-size: cover;
+}
+#rbox1 {
+    background-size: cover;
+    background-image: url('arduino1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#rbox2 {
+    background-image: url('arduino2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 #main section {
+    font-size: 12px;
     
     margin-bottom: 80px;
     display: flex;

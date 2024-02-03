@@ -19,7 +19,6 @@
 
 #abox1 a {
     display: block; /* Make the anchor element a block-level element to fill the container */
-    text-decoration: none; /* Remove underline from the link */
     padding: 10px; /* Add some padding for better clickability */
 }
 

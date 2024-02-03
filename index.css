@@ -13,3 +13,23 @@
     background-image: url('editor.png');
     background-size: cover;
 }
+#abox1 {
+    background-image: url('me.png');
+    background-size: cover;
+    z-index: 1;
+
+}
+#qbox1 {
+    background-image: url('qualifications.png');
+    background-size: cover;
+    z-index: 1;
+
+}
+#sbox1 {
+    background-image: url('bigevent.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 235px;
+
+}
