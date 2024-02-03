@@ -1,16 +1,79 @@
-#pbox1 {
-    background-image: url('editor.png');
-    background-size: cover;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
 }
-#main section {
+
+header {
+    background-color: #005792;
+    color: #ffffff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.header-content {
     display: flex;
-    border: 2px solid #c1c1c1;
-    padding: 0.5rem;
-    height: 200px;
-    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
-.infobox {
-    border: 2px solid #444;
-    border-radius: 10px; 
-    height: 180px;
+
+.navbar {
+    background-color: #005792;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #007cba;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #005792;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 2px solid #e1e5ea;
+}
+
+footer {
+    background-color: #003354;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+}
+
+.logo img {
+    height: 50px; /* Adjust based on your logo's size */
 }
